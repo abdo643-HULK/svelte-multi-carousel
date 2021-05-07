@@ -3,14 +3,13 @@
 	"version": "0.1.0",
 	"author": "Abd El Rahaman Shehata",
 	"description": "A Carousel for svelte with ssr support. Based on react-multi-carousel",
-	"svelte": "./src/index.ts",
-	"module": "./dist/index.mjs",
-	"main": "./dist/index.js",
+	"svelte": "src/index.ts",
+	"module": "public/dist/index.mjs",
+	"main": "public/dist/index.js",
 	"scripts": {
 		"build": "rollup -c",
 		"dev": "rollup -cw",
-		"start": "sirv public --no-clear",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "sirv public --no-clear"
 	},
 	"repository": {
 		"type": "git",
